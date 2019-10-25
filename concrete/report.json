@@ -1,0 +1,113 @@
+[
+  {
+    "uri": "features/concrete _whatsapp_Configuração.feature",
+    "id": "realizar-configuração-no-aplicativo-do-whatsapp-web",
+    "keyword": "Funcionalidade",
+    "name": "Realizar configuração no aplicativo do whatsapp web",
+    "description": "    Eu COMO um usuario do whatsapp web\n    QUERO realizar a configuração \n    PARA melhorar o que eu desejo ",
+    "line": 3,
+    "elements": [
+      {
+        "id": "realizar-configuração-no-aplicativo-do-whatsapp-web;visulizar-o-status",
+        "keyword": "Cenário",
+        "name": "Visulizar o status",
+        "description": "",
+        "line": 21,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@temp",
+            "line": 19
+          }
+        ],
+        "comments": [
+          {
+            "value": "#Verificar o status",
+            "line": 20
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.15.1/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19100
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.15.1/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18800
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que eu tenha adicionado um status no whatsapp web",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/concrete_whatsapp_Configuração.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21629895700
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clicar em no botão de status",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/concrete_whatsapp_Configuração.rb:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30216851200
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "irei fechar",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/concrete_whatsapp_Recursos.rb:24"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "undefined method `map' for nil:NilClass\nDid you mean?  tap (NoMethodError)\n./features/step_definitions/concrete_whatsapp_Recursos.rb:25:in `\"irei fechar\"'\nfeatures/concrete _whatsapp_Configuração.feature:24:in `Então irei fechar'",
+              "duration": 4425924200
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=78.0.3904.70) (Selenium::WebDriver::Error::NoSuchWindowError)\nBacktrace:\n\tOrdinal0 [0x0134A903+1550595]\n\tOrdinal0 [0x012CA701+1025793]\n\tOrdinal0 [0x0124C6E5+509669]\n\tOrdinal0 [0x0123E7D7+452567]\n\tOrdinal0 [0x011F9648+169544]\n\tOrdinal0 [0x0120159C+202140]\n\tOrdinal0 [0x011F8CDB+167131]\n\tOrdinal0 [0x011E144A+70730]\n\tOrdinal0 [0x011E24D0+74960]\n\tOrdinal0 [0x011E2469+74857]\n\tOrdinal0 [0x012E42C7+1131207]\n\tGetHandleVerifier [0x013E70FD+523789]\n\tGetHandleVerifier [0x013E6E90+523168]\n\tGetHandleVerifier [0x013EE1E7+552695]\n\tGetHandleVerifier [0x013E78FA+525834]\n\tOrdinal0 [0x012DB7FC+1095676]\n\tOrdinal0 [0x012E633B+1139515]\n\tOrdinal0 [0x012E64A3+1139875]\n\tOrdinal0 [0x012E5425+1135653]\n\tBaseThreadInitThunk [0x75AC0419+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F7662D+237]\n\tRtlGetAppContainerNamedObjectPath [0x76F765FD+189]\n./features/support/hooks.rb:13:in `add_screenshot'\n./features/support/hooks.rb:2:in `After'",
+              "duration": 14468200
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.15.1/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "chrome not reachable\n  (Session info: chrome=78.0.3904.70) (Selenium::WebDriver::Error::WebDriverError)\nBacktrace:\n\tOrdinal0 [0x0134A903+1550595]\n\tOrdinal0 [0x012CA701+1025793]\n\tOrdinal0 [0x0124C58E+509326]\n\tOrdinal0 [0x012462C2+484034]\n\tOrdinal0 [0x0123E4D2+451794]\n\tOrdinal0 [0x011FC21B+180763]\n\tOrdinal0 [0x011F8E37+167479]\n\tOrdinal0 [0x011E144A+70730]\n\tOrdinal0 [0x011E24D0+74960]\n\tOrdinal0 [0x011E2469+74857]\n\tOrdinal0 [0x012E42C7+1131207]\n\tGetHandleVerifier [0x013E70FD+523789]\n\tGetHandleVerifier [0x013E6E90+523168]\n\tGetHandleVerifier [0x013EE1E7+552695]\n\tGetHandleVerifier [0x013E78FA+525834]\n\tOrdinal0 [0x012DB7FC+1095676]\n\tOrdinal0 [0x012E633B+1139515]\n\tOrdinal0 [0x012E64A3+1139875]\n\tOrdinal0 [0x012E5425+1135653]\n\tBaseThreadInitThunk [0x75AC0419+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F7662D+237]\n\tRtlGetAppContainerNamedObjectPath [0x76F765FD+189]",
+              "duration": 2019191400
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
